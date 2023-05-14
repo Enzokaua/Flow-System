@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/logoSemFundo.png" type="image/x-icon">
+    <title>Flow</title>
+</head>
+<body>
+<div class="container">
+    <div class="leftRegister">
+      <h1>Welcome to register, Flower</h1>
+    <p class="desc"> Create account if your access our features</p>
+        <form class="formulario" submit="" id="some-form">
+            <div class="inputbox">
+              <p>Email</p>
+              <div class="label">
+              <input type="email" required="required" placeholder="insert your email ..." id="email">
+            </div>
+          </div>
+            <div class="inputbox">
+                <p>Password</p>
+              <div class="label">
+              <input type="password" required="required" placeholder="insert your password ..." id="senha" >
+              <img src="./assets/iconNaoVerSenha.png" alt="" id="imagem" onclick="verSenha()">  
+            </div>
+            </div>
+            <div class="buttonRegister">
+              <input type="submit" value="Register">
+            </div>
+          </form>
+    </div>
+    <div class="rightRegister">
+      <div class="fundoRegister">
+        <img src="./assets/rightBackgroundSemFundo.png" alt="">
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
